@@ -1,0 +1,28 @@
+{
+  "name": "webpack_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --config webpack.config.js --progress --display-modules --colors --display-reasons"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaojiaolv131/webpack_test.git"
+  },
+  "author": "hulk lv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaojiaolv131/webpack_test/issues"
+  },
+  "homepage": "https://github.com/xiaojiaolv131/webpack_test#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.1",
+    "html-minifier": "^3.5.21",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
